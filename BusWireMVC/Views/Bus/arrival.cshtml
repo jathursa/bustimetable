@@ -1,0 +1,9 @@
+﻿@model BusWireMVC.Models.BusArrival
+<p>Line: @Model.LineName</p>
+
+<p>time of araival
+@(Model.TimeToStation/60)min
+@(Model.TimeToStation%60)sec
+</p>
+@Model.DestinationName</p>
+<p>Time until arrival</p>
